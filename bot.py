@@ -20,7 +20,7 @@ from telegram.ext import (
     filters,
 )
 
-BOT_TOKEN = os.environ.get("8994282970:AAHqbEmQl2aFSMhHWm7-dDCs3lqjRZ793_k")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 if not BOT_TOKEN:
     raise RuntimeError(
         "متغیر محیطی TELEGRAM_BOT_TOKEN تنظیم نشده. "
